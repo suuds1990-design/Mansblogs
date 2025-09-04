@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mans Blogs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .post {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .post:hover {
+      transform: translateY(-3px);
+    }
+    .post h2 {
+      margin-top: 0;
+      color: #4f46e5;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mans Blogs</h1>
+    <p>Vieta, kur dalos ar savām domām un idejām</p>
+  </header>
+
+  <main>
+    <article class="post">
+      <h2>Pirmais ieraksts</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Morbi eget orci ac est interdum luctus.</p>
+    </article>
+
+    <article class="post">
+      <h2>Ceļojuma pieredze</h2>
+      <p>Dalīšos ar saviem iespaidiem par pēdējo ceļojumu un interesantākajām vietām, ko apmeklēju.</p>
+    </article>
+
+    <article class="post">
+      <h2>Iedvesma ikdienai</h2>
+      <p>Dažreiz pietiek ar maziem soļiem, lai mainītu domāšanu un uzlabotu garastāvokli.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mans Blogs | Izveidots ar 💜</p>
+  </footer>
+
+</body>
+</html>
